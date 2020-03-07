@@ -12,7 +12,7 @@
   "dependencies": {
     "probot": "^3.0.0",
     "probot-scheduler": "^1.0.2",
-    "standard": "^10.0.3"
+    "standard": "^13.0.0"
   },
   "engines": {
     "node": "^7.7",
