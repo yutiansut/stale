@@ -7,12 +7,15 @@
   "repository": "https://github.com/probot/stale",
   "scripts": {
     "start": "probot run ./index.js",
-    "test": "standard"
+    "test": "standard",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "probot": "^3.0.0",
     "probot-scheduler": "^1.0.2",
-    "standard": "^10.0.3"
+    "standard": "^10.0.3",
+    "snyk": "^1.316.1"
   },
   "engines": {
     "node": "^7.7",
@@ -22,5 +25,6 @@
     "expect": "^1.20.2",
     "localtunnel": "^1.8.3",
     "mocha": "^3.5.0"
-  }
+  },
+  "snyk": true
 }
